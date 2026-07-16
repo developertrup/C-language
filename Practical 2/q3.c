@@ -10,7 +10,6 @@ main()
 
     if (score >= 0 && score <= 100)
     {
-        // Find grade
         if (score >= 90)
             grade = 'A';
         else if (score >= 80)
