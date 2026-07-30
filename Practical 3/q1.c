@@ -2,12 +2,12 @@
 
  main()
 {
-    char ch = 'a';
+    char ch = 'a'; 
 
     do
     {
-        printf("%c, ", ch);
-        ch = ch+4;
+        printf("%c, ", ch); //a //e //y
+        ch = ch+4;//97+4=101
     }
-    while (ch <= 'z');
+    while (ch <= 'z');//true
 }

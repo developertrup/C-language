@@ -7,12 +7,13 @@
     printf("Enter any number: ");
     scanf("%d", &n);
 
-    while (n != 0)
+    while (n != 0) 
     {
-        n = n / 10;
-        count++;
+        n = n / 10; 
+        count++; 
     }
 
     printf("Total number of digits: %d", count);
+    
 
 }
